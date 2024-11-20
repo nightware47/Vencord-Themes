@@ -1,11 +1,11 @@
 :root {
-    --main-color: rgb(115, 115, 115);
+    --main-color: rgb(50, 50, 50);
     --hover-color: rgb(30, 99, 179);
     --success-color: rgb(59,165,92);
     --danger-color: rgb(237,66,69);
     --channel-unread: rgb(220,221,222);
     --channel-color: rgb(142,146,151);
-    --muted-color: rgba(255, 255, 255, 0.1);
+    --muted-color: rgba(90, 90, 90);
     --server-unread: rgb(220,221,222);
     --channel-text-selected: #fff;
     --url-color: rgb(0, 176, 244);
@@ -14,15 +14,13 @@
     --dnd-color: #982929;
     --offline-color: #808080;
     --streaming-color: #593695;
-    --main-font: gg sans, Helvetica Neue, Helvetica, Arial, sans-serif;
-    --code-font: Consolas, Liberation Mono, Menlo, Courier, monospace;
-    --font-display: var(--main-font);
+    --main-font: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     --text-normal: rgb(220, 221, 222);
     --text-muted: rgb(114, 118, 125);
     --channels-width: 220px;
     --members-width: 240px;
     --background-shading: 100%;
-    --background-overlay: rgba(0, 0, 0, 0.7);
+    --background-overlay: rgba(20, 20, 20, 0.7);
     --background-image: bg: rgba(0,0,0, 0.7);
     --background-position: center;
     --background-size: cover;
@@ -73,7 +71,6 @@
     --user-modal-grayscale: var(--background-grayscale);
     --user-modal-sepia: var(--background-sepia);
     --user-modal-blur: calc(var(--background-blur) + 3px);
-    --home-icon: url(https://clearvision.github.io/icons/discord.svg);
     --home-position: center;
     --home-size: 40px;
     --popout-color: rgba(0, 0, 0, 0.7);
@@ -1214,7 +1211,7 @@ textarea,
 
 .button_ccfa44,
 .buttonIcon_ccfa44 {
-    color: var(--url-color)
+    color: rgb(0, 176, 244);
 }
 
 .unread_edf32f,
@@ -2190,7 +2187,7 @@ div[aria-checked=true] .mentionButton_b11c5e {
 }
 
 .fakeLink_cdb578 {
-    color: var(--url-color)
+    color: rgb(0, 176, 244);
 }
 
 .wrapper_faf5ab {
@@ -2544,7 +2541,7 @@ div[aria-checked=true] .mentionButton_b11c5e {
 }
 
 .lookLink_dd4f85.colorLink_dd4f85 {
-    color: var(--url-color)
+    color: rgb(0, 176, 244);
 }
 
 .lookLink_dd4f85.colorLink_dd4f85:disabled:hover .contents_dd4f85 {
@@ -4287,11 +4284,11 @@ textarea::-webkit-scrollbar {
 
 .markup_f8f345 a,
 .anchor_af404b {
-    color: var(--url-color)
+    color: rgb(0, 176, 244);
 }
 
 .content_d76df7 .actionAnchor_d76df7 {
-    color: var(--url-color)
+    color: rgb(0, 176, 244);
 }
 
 .theme-dark .tile_ab47a1 {
@@ -11249,7 +11246,7 @@ code {
 
 .bd-changelog-modal .bd-modal-content a,
 .bd-link {
-    color: var(--url-color)
+    color: rgb(0, 176, 244);
 }
 
 .bd-settings-title {
