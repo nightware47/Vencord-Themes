@@ -44,7 +44,7 @@
 
   /* CHANNEL COLORS */
   --channel-unread: rgb(220,221,222); /* Unread Server channel color. [default:  var(--main-color)] THIS OVERRIDES YOUR MAIN COLOR*/
-  --channel-color: rgb(220,221,222); /*Read Server channel color  [default: rgba(255,255,255,0.3);]*/
+  --channel-color: rgb(160, 160, 160); /*Read Server channel color  [default: rgba(255,255,255,0.3);]*/
   --channel-text-selected: #fff; /* Selected channel text color, CV default is #fff */
   --muted-color: rgb(90,90,90); /*Muted channel color  [default: rgba(255,255,255,0.1);]*/
 
